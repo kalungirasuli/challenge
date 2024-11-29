@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get "/admin", to: "admin#dashboard"
+  root "admin#index"
+  get "/admin", to: "admin#index"
   get "up" => "rails/health#show", as: :rails_health_check
 
 end
