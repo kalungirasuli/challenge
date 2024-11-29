@@ -10,12 +10,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        Blue: "#1E40AF",
-        Red: "#1E40AF",
+        greenDark: "#406365",
+        green:"#00474b",
+        light:"#9fe8df",
+        brown:"#b48372",
+        white:"#ffffff"
       },
 
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['"Space Mono"', 'monospace'],
       },
     },
   },
